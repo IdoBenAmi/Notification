@@ -5,10 +5,12 @@ Service which gets notification through API and send it with push notifications
 ## Description
 
 api/Resource - post a new message then send notification using socket.io to some url 
-Environment Variables
--- API_LISTENING_PORT: the port which the REST API will use
--- SOCKET_LISTENING_PORT: the port which the Socket.io will use for client to connect
--- PUBLISH_URL: the port which the Socket.io will publish that recievied new notification
+
+### Environment Variables
+
+* API_LISTENING_PORT: the port which the REST API will use
+* SOCKET_LISTENING_PORT: the port which the Socket.io will use for client to connect
+* PUBLISH_URL: the port which the Socket.io will publish that recievied new notification
 
 ## Getting Started
 
